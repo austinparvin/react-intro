@@ -13,7 +13,7 @@ body {
 }
 
 main {
-  margin-top: 2.5rem;
+  margin-top: 6rem;
   padding: 0 1.5rem;
 }
 
@@ -87,7 +87,8 @@ nav {
   width: 100%;
 }
 
-nav section, nav ul {
+nav section,
+nav ul {
   display: flex;
   margin: 0 1rem;
   align-items: center;
