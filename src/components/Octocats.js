@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Card from './Card'
 import Terracottocat from '../images/Terracottocat_Single.png'
 import Octogatos from '../images/Octogatos.png'
 import OctogatosOwner from '../images/Octogatos_owner.jpeg'
@@ -16,125 +17,95 @@ import UmbrellatocatOwner from '../images/puddle_jumper_octodex_owner.jpeg'
 
 export class Octocats extends Component {
   render() {
+    const cats = [
+      {
+        name: 'Terracottocat',
+        url: 'https://octodex.github.com/terracottocat/',
+        imgUrl: Terracottocat,
+        num: '#149: ',
+        owner: 'chubbmo',
+        ownerImgUrl: 'https://github.com/chubbmo.png',
+        ownerUrl: 'google.com',
+      },
+      {
+        name: 'Octogatos',
+        url: 'https://octodex.github.com/octogatos/',
+        imgUrl: Octogatos,
+        num: '#148: ',
+        owner: 'cameronfoxly',
+        ownerImgUrl: OctogatosOwner,
+        ownerUrl: 'https://github.com/cameronfoxly',
+      },
+      {
+        name: 'Adacats',
+        url: 'https://octodex.github.com/adacats/',
+        imgUrl: Adacats,
+        num: '#147: ',
+        owner: 'cameronfoxly',
+        ownerImgUrl: OctogatosOwner,
+        ownerUrl: 'https://github.com/cameronfoxly',
+      },
+      {
+        name: 'Fintechtocat',
+        url: 'https://octodex.github.com/fintechtocat/',
+        imgUrl: Fintechtocat,
+        num: '#146: ',
+        owner: 'ceciliorz',
+        ownerImgUrl: FintechtocatOwner,
+        ownerUrl: 'https://github.com/ceciliorz',
+      },
+      {
+        name: 'Brennatocat',
+        url: 'https://octodex.github.com/brennatocat/',
+        imgUrl: Brennatocat,
+        num: '#145: ',
+        owner: 'johncreek',
+        ownerImgUrl: BrennatocatOwner,
+        ownerUrl: 'https://github.com/johncreek',
+      },
+      {
+        name: 'Filmtocats',
+        url: 'https://octodex.github.com/filmtocats/',
+        imgUrl: Filmtocats,
+        num: '#144: ',
+        owner: 'heyhayhay',
+        ownerImgUrl: FilmtocatsOwner,
+        ownerUrl: 'https://github.com/heyhayhay',
+      },
+      {
+        name: 'Sentrytocat',
+        url: 'https://octodex.github.com/sentrytocat/',
+        imgUrl: Sentrytocat,
+        num: '#143: ',
+        owner: 'cameronmcefee',
+        ownerImgUrl: SentrytocatOwner,
+        ownerUrl: 'https://github.com/cameronmcefee',
+      },
+      {
+        name: 'Umbrellatocat',
+        url: 'https://octodex.github.com/umbrellatocat/',
+        imgUrl: Umbrellatocat,
+        num: '#142: ',
+        owner: 'rubyjazzy',
+        ownerImgUrl: UmbrellatocatOwner,
+        ownerUrl: 'https://github.com/rubyjazzy',
+      },
+    ]
     return (
       <main>
-        <section>
-          <a href="https://octodex.github.com/terracottocat/">
-            <img class="octo-img" src={Terracottocat} alt="Terracottocat" />
-          </a>
-          <header>
-            <p>
-              #149:{' '}
-              <a href="https://octodex.github.com/terracottocat/">
-                Terracottocat
-              </a>
-            </p>
-            <a>
-              <img src="https://github.com/chubbmo.png" alt="chubbmo" />
-            </a>
-          </header>
-        </section>
-        <section>
-          <a href="https://octodex.github.com/octogatos/">
-            <img class="octo-img" src={Octogatos} alt="Octogatos" />
-          </a>
-          <header>
-            <p>
-              #148:{' '}
-              <a href="https://octodex.github.com/octogatos/">Octogatos</a>
-            </p>
-            <a href="https://github.com/cameronfoxly">
-              <img src={OctogatosOwner} alt="cameronfoxly" />
-            </a>
-          </header>
-        </section>
-        <section>
-          <a href="https://octodex.github.com/adacats/">
-            <img class="octo-img" src={Adacats} alt="Adacats" />
-          </a>
-          <header>
-            <p>
-              #147: <a href="https://octodex.github.com/adacats/">Adacats</a>
-            </p>
-            <a href="https://github.com/cameronfoxly">
-              <img src={OctogatosOwner} alt="cameronfoxly" />
-            </a>
-          </header>
-        </section>
-        <section>
-          <a href="https://octodex.github.com/fintechtocat/">
-            <img class="octo-img" src={Fintechtocat} alt="Fintechtocat" />
-          </a>
-          <header>
-            <p>
-              #146:{' '}
-              <a href="https://octodex.github.com/fintechtocat/">
-                Fintechtocat
-              </a>
-            </p>
-            <a href="https://github.com/ceciliorz">
-              <img src={FintechtocatOwner} alt="ceciliorz" />
-            </a>
-          </header>
-        </section>
-        <section>
-          <a href="https://octodex.github.com/brennatocat/">
-            <img class="octo-img" src={Brennatocat} alt="Brennatocat" />
-          </a>
-          <header>
-            <p>
-              #145:{' '}
-              <a href="https://octodex.github.com/brennatocat/">Brennatocat</a>
-            </p>
-            <a href="https://github.com/johncreek">
-              <img src={BrennatocatOwner} alt="johncreek" />
-            </a>
-          </header>
-        </section>
-        <section>
-          <a href="https://octodex.github.com/filmtocats/">
-            <img class="octo-img" src={Filmtocats} alt="filmtocats" />
-          </a>
-          <header>
-            <p>
-              #144:{' '}
-              <a href="https://octodex.github.com/filmtocats/">Filmtocats</a>
-            </p>
-            <a href="https://github.com/heyhayhay">
-              <img src={FilmtocatsOwner} alt="heyhayhay" />
-            </a>
-          </header>
-        </section>
-        <section>
-          <a href="https://octodex.github.com/sentrytocat/">
-            <img class="octo-img" src={Sentrytocat} alt="Sentrytocat" />
-          </a>
-          <header>
-            <p>
-              #143:{' '}
-              <a href="https://octodex.github.com/sentrytocat/">Sentrytocat</a>
-            </p>
-            <a href="https://github.com/cameronmcefee">
-              <img src={SentrytocatOwner} alt="cameronmcefee" />
-            </a>
-          </header>
-        </section>
-        <section>
-          <a href="https://octodex.github.com/umbrellatocat/">
-            <img class="octo-img" src={Umbrellatocat} alt="Umbrellatocat" />
-          </a>
-          <header>
-            <p>
-              #142:{' '}
-              <a href="https://octodex.github.com/umbrellatocat/">
-                Umbrellatocat
-              </a>
-            </p>
-            <a href="https://github.com/rubyjazzy">
-              <img src={UmbrellatocatOwner} alt="rubyjazzy" />
-            </a>
-          </header>
-        </section>
+        {cats.map(cat => {
+          return (
+            <Card
+              name={cat.name}
+              url={cat.url}
+              imgUrl={cat.imgUrl}
+              num={cat.num}
+              owner={cat.owner}
+              ownerUrl={cat.ownerUrl}
+              ownerImgUrl={cat.ownerImgUrl}
+            />
+          )
+        })}
       </main>
     )
   }
