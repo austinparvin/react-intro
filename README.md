@@ -1,3 +1,9 @@
+## Live Site
+
+[LIVE SITE](https://react-intro-austinparvin.netlify.app/)
+
+![Octo Clone](https://i.imgur.com/oYquAU4.png)
+
 # React Intro
 
 This is a responsive website cloned after [https://octodex.github.com/](https://octodex.github.com/) using React
@@ -17,11 +23,6 @@ This is a responsive website cloned after [https://octodex.github.com/](https://
 - [REACT](https://reactjs.org/docs/getting-started.html)
 - [NETLIFY](https://docs.netlify.com/?_ga=2.56383019.1272475466.1587169866-1421079835.1583768648)
 
-## Live Site
-
-[LIVE SITE](https://react-intro-austinparvin.netlify.app/)
-
-![Octo Clone](https://i.imgur.com/oYquAU4.png)
 
 ## Featured Code
 
