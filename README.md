@@ -1,9 +1,3 @@
-## Live Site
-
-[LIVE SITE](https://react-intro-austinparvin.netlify.app/)
-
-![Octo Clone](https://i.imgur.com/oYquAU4.png)
-
 # React Intro
 
 This is a responsive website cloned after [https://octodex.github.com/](https://octodex.github.com/) using React
@@ -14,6 +8,12 @@ This is a responsive website cloned after [https://octodex.github.com/](https://
 - Introduce React Components
 - Learn to identify parts of a web site as Components
 - Understand and use "props" in React
+
+## Live Site
+
+[LIVE SITE](https://react-intro-austinparvin.netlify.app/)
+
+![Octo Clone](https://i.imgur.com/oYquAU4.png)
 
 # Includes: 
 
