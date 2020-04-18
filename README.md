@@ -25,7 +25,7 @@ This is a responsive website cloned after [https://octodex.github.com/](https://
 
 ## Featured Code
 
-### Desktop CSS Media Query
+### Mapping over cats
 
 ```JSX
 return (
